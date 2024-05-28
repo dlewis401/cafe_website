@@ -1,0 +1,54 @@
+/* NAVIGATION */
+
+.no-flexbox-gap .header-container #navigation_section:not(:last-child) {
+    margin-right: 10em;
+}
+
+/* HERO */
+.no-flexbox-gap .hero-section #header_section {
+    margin-right: 7.5em;
+}
+
+/* WHY US SECTION */
+.no-flexbox-gap #grid-container:not(:last-child) {
+    margin-right: 3em;
+}
+
+.no-flexbox-gap #flex-items-for-reliabilty {
+    margin-right: 1em;
+}
+
+/* TESTOMONIALS SECTION */
+
+.no-flexbox-gap .testomonialSection #flexbox-container-for-testomonial {
+    margin-bottom: 1em;
+}
+
+/* FOOTER SECTION */
+.no-flexbox-gap .footer-section #grid-footer-container {
+    margin-right: 15em;
+}
+
+/* MEDIA QUERIES SECTION */
+
+@media (max-width: 81em)  {
+    .no-flexbox-gap .hero-section #header_section:not(:last-child) {
+        margin-right: 3em;
+    }
+}
+
+@media (max-width: 73em) {
+    .no-flexbox-gap .hero-section #header_section:not(:last-child) {
+        margin-right: 5em;
+    }
+}
+
+@media (max-width: 66em)  {
+    .no-flexbox-gap .header-container #navigation_section:not(:last-child) {
+        margin-right: 5em;
+    }
+
+    .no-flexbox-gap .hero-section #header_section:not(:last-child) {
+        margin-right: 2em;
+    }
+}

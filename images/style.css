@@ -57,7 +57,7 @@ html {
 /* HERO */
 
 .hero-section {
-    background-image: linear-gradient(rgba(14, 14, 14, 0.568), rgba(14, 14, 14, 0.568)), url("../images/building1.avif");
+    background-image: linear-gradient(rgba(14, 14, 14, 0.568), rgba(14, 14, 14, 0.568)), url(/images/building1.avif);
     background-size: cover;
 }
 
